@@ -1,0 +1,202 @@
+/* .all-content {
+  height: 100;
+  width: 100%;
+  box-sizing: border-box;
+} */
+#baku,
+#baku section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#baku img {
+    width: 79.5%;
+}
+
+#perks,
+#perks section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#perks img {
+    width: 79.5%;
+}
+
+.grid-container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 12px;
+    /* margin: 2% 5%; */
+    margin: 5%;
+    height: auto;
+    /* width: 81%; */
+    box-shadow: 4px 8px 4px 4px rgba(3, 2, 2, 0.12);
+    /* border: 1px solid  rgb(15, 14, 14); */
+    /* border: 1px solid  black; */
+    border-radius: 10px;
+    /* font-size: 13px;
+    font-weight: 100;  */
+    font-family: "Open Sans", sans-serif;
+    /* color: #3b3b3b; */
+    background-color: ghostwhite;
+}
+
+.grid-item {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.lug {
+    width: 272.5px;
+    height: 48%;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.luggage-image {
+    width: 100%;
+    /* height: 50%; */
+    /* border-top-left-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+    transition: all .2s ease-in-out;
+}
+
+.luggage-image:hover {
+    transform: scale(1.6);
+}
+
+.hat {
+    width: 272.5px;
+    height: 48%;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.hatgirl-image {
+    width: 100%;
+    height: initial;
+    /* border-top-left-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+    transition: all .2s ease-in-out;
+}
+
+.hatgirl-image:hover {
+    transform: scale(1.6);
+}
+
+.emi {
+    width: 272.5px;
+    height: 48%;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.emirates-image {
+    width: 100%;
+    height: initial;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.emirates-image:hover {
+    transform: scale(1.6);
+}
+
+.fly {
+    width: 272.5px;
+    height: 48%;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.fly-image {
+    width: 100%;
+    height: initial;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all .2s ease-in-out;
+
+}
+
+.fly-image:hover {
+    transform: scale(1.6);
+}
+
+.headings {
+    font-size: 17px;
+    font-weight: 700;
+    color: #292929;
+    padding-left: 16px;
+    margin-top: 14px;
+}
+
+.paragraphs {
+    font-size: 15px;
+    color: #3b3b3b;
+    padding-left: 16px;
+}
+
+.top-bottom-p {
+    padding: 63px 0 0 16px;
+    /* color:  #009cde; */
+    font-size: 16px;
+}
+
+.p-center {
+    padding: 46px 0 0 16px;
+    /* color: #009cde; */
+    font-size: 16px;
+}
+
+#luggage1 {
+    color: #009cde;
+    text-decoration: none
+}
+
+#luggage1:hover {
+    color: #fd7e14;
+}
+
+#hatgirl1 {
+    color: #009cde;
+    text-decoration: none
+}
+
+#hatgirl1:hover {
+    color: #fd7e14;
+}
+
+#emirates1 {
+    color: #009cde;
+    text-decoration: none
+}
+
+#emirates1:hover {
+    color: #fd7e14;
+}
+
+#fly1 {
+    color: #009cde;
+    text-decoration: none
+}
+
+#fly1:hover {
+    color: #fd7e14;
+
+}

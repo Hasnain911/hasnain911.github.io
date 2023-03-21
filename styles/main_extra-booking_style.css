@@ -1,0 +1,35 @@
+.extra-booking-section,
+.extra-booking-section section {
+    background-color: #f5fafc;
+    width: 100vw;
+}
+
+.extra-booking-items {
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.extra-item {
+    margin: 1rem 0;
+    flex-wrap: nowrap;
+    background-color: transparent;
+}
+
+.extra-booking-txt {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.arrow {
+    border: solid #009cde;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}

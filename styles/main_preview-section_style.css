@@ -1,0 +1,6 @@
+#preview-img-div,
+#preview-img {
+    width: 80vw;
+    border: 2px solid transparent;
+    border-radius: 12px;
+}

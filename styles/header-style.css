@@ -1,0 +1,44 @@
+.header,
+header {
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    width: 100vw;
+    background-color: #1a2139;
+    color: antiquewhite;
+}
+
+.main-header {
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    font-size: 12px;
+}
+
+.icons {
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    font-size: 8px;
+}
+
+.header-ul {
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    margin: 1em 0;
+}
+
+li {
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 1em;
+}
+
+.mainHeader-li-a:hover {
+    background: #32394f;
+    color: #ff8200 !important;
+    border: 2px solid #32394f;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.logo a:hover {
+    border-bottom: 1px solid #ff8200;
+}
